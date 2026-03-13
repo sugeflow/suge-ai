@@ -47,7 +47,7 @@ export default function App() {
           <div className="space-y-8">
             <div className="space-y-4">
               <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm uppercase tracking-[0.25em] text-white/60">
-                AI Portfolio
+                Selected Works
               </span>
 
               <h1 className="font-display text-[clamp(4rem,9vw,7.5rem)] leading-[0.92] tracking-[-0.06em] text-white">
@@ -55,13 +55,14 @@ export default function App() {
               </h1>
 
               <div className="font-display text-[clamp(3rem,7vw,5.8rem)] leading-[0.98] tracking-[-0.05em] text-[var(--color-muted)]">
-                <div>用产品、实验与界面把想法压成作品。</div>
+                <div>把复杂的事，</div>
+                <div>做得很简单。</div>
               </div>
             </div>
 
             <p className="max-w-2xl text-lg leading-8 text-[var(--color-muted)] md:text-xl">
-              这里展示的是 sugeflow 的 AI 产品、自动化流程、创意界面和开放实验。
-              页面不是简历陈列，而是一个持续更新的创作样本库。
+              这里收录的是 sugeflow 做过的产品、流程和界面。
+              它们不是概念，也不是摆拍用的 demo。它们能运行，能使用，也会继续进化。
             </p>
           </div>
 
@@ -69,9 +70,9 @@ export default function App() {
             <div className="flex items-center justify-between border-b border-white/10 pb-5">
               <div>
                 <p className="text-sm uppercase tracking-[0.28em] text-[var(--color-muted)]">
-                  Snapshot
+                  Focus
                 </p>
-                <p className="mt-2 font-display text-2xl">创作雷达</p>
+                <p className="mt-2 font-display text-2xl">现在在做什么</p>
               </div>
               <Badge className="border-[var(--color-accent)]/30 bg-[var(--color-accent)]/12 text-[var(--color-accent)]">
                 Updated 2026
@@ -79,9 +80,9 @@ export default function App() {
             </div>
             <div className="grid gap-4 pt-6 sm:grid-cols-2">
               {[
-                ["作品方向", "AI 产品 / 自动化 / 创意代码"],
-                ["表达方式", "Landing Page / Tooling / Workflow"],
-                ["创作偏好", "高密度信息 + 强视觉气质"],
+                ["关注问题", "把复杂任务变成清楚、直接的产品体验"],
+                ["工作方式", "原型、上线、迭代，而不是反复讲概念"],
+                ["判断标准", "有用，好用，经得起重复使用"],
                 ["主要阵地", "GitHub · sugeflow"],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-3xl border border-white/8 bg-black/10 p-4">
@@ -96,8 +97,8 @@ export default function App() {
         <section id="featured" className="space-y-10">
           <SectionTitle
             eyebrow="Featured"
-            title="精选作品先看结果，再看方法。"
-            description="先展示最能代表苏格AI气质的项目：有产品感、有执行链路，也有明确的视觉判断。"
+            title="先看做成了什么。"
+            description="挑几件最能代表判断和执行力的作品。少一点解释，多一点结果。"
           />
           <div className="grid gap-6 lg:grid-cols-3">
             {featuredProjects.map((project, index) => (
@@ -159,8 +160,8 @@ export default function App() {
         <section className="space-y-10">
           <SectionTitle
             eyebrow="Archive"
-            title="按创作类型浏览，而不是按时间堆砌。"
-            description="用分类视角展示作品库，更适合把持续创作的能力和方法论表达出来。"
+            title="作品按类型归档。"
+            description="按问题和做法来整理，比按时间排序更接近真实的工作方式。"
           />
           <Tabs.Root defaultValue="All" className="space-y-8">
             <Tabs.List className="flex flex-wrap gap-3">
@@ -245,16 +246,16 @@ export default function App() {
           <Card className="p-8">
             <SectionTitle
               eyebrow="About"
-              title="不是堆 demo，是建立持续产出的系统。"
-              description="苏格AI聚焦的是把想法变成能运行、能展示、能复用的成果，从提示词到工具，从界面到流程。"
+              title="好产品不靠堆功能。"
+              description="我更在意取舍、完成度和持续迭代。技术只是材料，体验才是最后留下来的东西。"
             />
           </Card>
           <Card className="p-8">
             <div className="grid gap-8 md:grid-cols-3">
               {[
-                ["产品化", "把实验压缩成可被他人理解和使用的界面。"],
-                ["自动化", "把高频动作收敛成稳定、可重复执行的流程。"],
-                ["表达力", "让技术作品具备明确的节奏、气质和识别度。"],
+                ["产品判断", "知道该做什么，也知道什么应该删掉。"],
+                ["执行速度", "尽快把东西做出来，再用真实反馈把它磨对。"],
+                ["完成度", "界面、流程和细节要像一个整体，而不是拼起来的功能。"],
               ].map(([title, copy]) => (
                 <div key={title}>
                   <p className="font-display text-2xl text-white">{title}</p>
@@ -269,7 +270,7 @@ export default function App() {
           <div>
             <p className="font-display text-2xl">苏格AI</p>
             <p className="mt-2 text-sm text-[var(--color-muted)]">
-              持续更新 sugeflow 的作品样本与创作轨迹。
+              持续发布正在成形的产品与实验。
             </p>
           </div>
           <a
