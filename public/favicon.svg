@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>苏格AI favicon</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141d27" />
+      <stop offset="100%" stop-color="#0a0f14" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <circle cx="96" cy="34" r="10" fill="#f6c25d" opacity="0.95" />
+  <path
+    d="M35 30h23c15 0 25 7 25 21 0 8-4 14-12 18 10 3 16 10 16 21 0 18-13 28-34 28H35V30Zm16 14v19h8c5 0 9-3 9-10 0-6-4-9-11-9h-6Zm0 33v27h11c7 0 11-4 11-12 0-10-5-15-15-15H51Z"
+    fill="#f3efe7"
+  />
+</svg>

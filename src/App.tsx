@@ -47,9 +47,9 @@ export default function App() {
           <div className="space-y-8">
             <Badge>AI Portfolio</Badge>
             <div className="space-y-6">
-              <h1 className="font-display max-w-4xl text-5xl leading-[0.95] tracking-[-0.04em] md:text-7xl lg:text-8xl">
+              <h1 className="font-display max-w-4xl text-[clamp(3.6rem,10vw,7rem)] leading-[0.9] tracking-[-0.055em] md:max-w-[10ch]">
                 苏格AI
-                <span className="block text-[var(--color-muted)]">
+                <span className="mt-2 block text-[var(--color-muted)] md:mt-3">
                   用产品、实验与界面把想法压成作品。
                 </span>
               </h1>
