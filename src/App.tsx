@@ -45,30 +45,24 @@ export default function App() {
 
         <section className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
           <div className="space-y-8">
-            <Badge>AI Portfolio</Badge>
-            <div className="space-y-6">
-              <h1 className="font-display max-w-4xl text-[clamp(3.6rem,10vw,7rem)] leading-[0.9] tracking-[-0.055em] md:max-w-[10ch]">
-                苏格AI
-                <span className="mt-2 block text-[var(--color-muted)] md:mt-3">
-                  用产品、实验与界面把想法压成作品。
-                </span>
+            <div className="space-y-4">
+              <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm uppercase tracking-[0.25em] text-white/60">
+                AI Portfolio
+              </span>
+
+              <h1 className="font-display text-[clamp(4rem,9vw,7.5rem)] leading-[0.92] tracking-[-0.06em] text-white">
+                苏格 AI
               </h1>
-              <p className="max-w-2xl text-lg leading-8 text-[var(--color-muted)] md:text-xl">
-                这里展示的是 sugeflow 的 AI 产品、自动化流程、创意界面和开放实验。
-                页面不是简历陈列，而是一个持续更新的创作样本库。
-              </p>
+
+              <div className="font-display text-[clamp(3rem,7vw,5.8rem)] leading-[0.98] tracking-[-0.05em] text-[var(--color-muted)]">
+                <div>用产品、实验与界面把想法压成作品。</div>
+              </div>
             </div>
-            <div className="flex flex-wrap gap-4">
-              <a href="#featured">
-                <Button size="lg">查看精选作品</Button>
-              </a>
-              <a href="https://github.com/sugeflow" target="_blank" rel="noreferrer">
-                <Button variant="secondary" size="lg">
-                  GitHub 主页
-                  <ArrowUpRight className="size-4" />
-                </Button>
-              </a>
-            </div>
+
+            <p className="max-w-2xl text-lg leading-8 text-[var(--color-muted)] md:text-xl">
+              这里展示的是 sugeflow 的 AI 产品、自动化流程、创意界面和开放实验。
+              页面不是简历陈列，而是一个持续更新的创作样本库。
+            </p>
           </div>
 
           <Card className="overflow-hidden p-6 md:p-8">
