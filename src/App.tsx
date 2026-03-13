@@ -28,13 +28,13 @@ export default function App() {
             <div>
               <p className="font-display text-lg leading-none">苏格AI</p>
               <p className="text-xs uppercase tracking-[0.3em] text-[var(--color-muted)]">
-                Works by zhichucode
+                Works by sugeflow
               </p>
             </div>
           </div>
           <a
             className="inline-flex items-center gap-2 text-sm text-[var(--color-muted)] transition-colors hover:text-white"
-            href="https://github.com/zhichucode"
+            href="https://github.com/sugeflow"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ export default function App() {
                 </span>
               </h1>
               <p className="max-w-2xl text-lg leading-8 text-[var(--color-muted)] md:text-xl">
-                这里展示的是 zhichucode 的 AI 产品、自动化流程、创意界面和开放实验。
+                这里展示的是 sugeflow 的 AI 产品、自动化流程、创意界面和开放实验。
                 页面不是简历陈列，而是一个持续更新的创作样本库。
               </p>
             </div>
@@ -62,7 +62,7 @@ export default function App() {
               <a href="#featured">
                 <Button size="lg">查看精选作品</Button>
               </a>
-              <a href="https://github.com/zhichucode" target="_blank" rel="noreferrer">
+              <a href="https://github.com/sugeflow" target="_blank" rel="noreferrer">
                 <Button variant="secondary" size="lg">
                   GitHub 主页
                   <ArrowUpRight className="size-4" />
@@ -88,7 +88,7 @@ export default function App() {
                 ["作品方向", "AI 产品 / 自动化 / 创意代码"],
                 ["表达方式", "Landing Page / Tooling / Workflow"],
                 ["创作偏好", "高密度信息 + 强视觉气质"],
-                ["主要阵地", "GitHub · zhichucode"],
+                ["主要阵地", "GitHub · sugeflow"],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-3xl border border-white/8 bg-black/10 p-4">
                   <p className="text-sm text-[var(--color-muted)]">{label}</p>
@@ -275,12 +275,12 @@ export default function App() {
           <div>
             <p className="font-display text-2xl">苏格AI</p>
             <p className="mt-2 text-sm text-[var(--color-muted)]">
-              持续更新 zhichucode 的作品样本与创作轨迹。
+              持续更新 sugeflow 的作品样本与创作轨迹。
             </p>
           </div>
           <a
             className="inline-flex items-center gap-2 text-sm text-[var(--color-muted)] transition-colors hover:text-white"
-            href="https://github.com/zhichucode"
+            href="https://github.com/sugeflow"
             target="_blank"
             rel="noreferrer"
           >

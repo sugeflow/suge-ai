@@ -8,7 +8,7 @@ describe("App", () => {
     expect(
       screen
         .getAllByRole("link")
-        .some((link) => link.getAttribute("href") === "https://github.com/zhichucode"),
+        .some((link) => link.getAttribute("href") === "https://github.com/sugeflow"),
     ).toBe(true);
   });
 });
